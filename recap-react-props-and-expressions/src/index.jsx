@@ -5,4 +5,12 @@ function CustomButton(props) {
   return (<button>{props.text}</button>);
 }
 
-ReactDOM.render(CustomButton, document.getElementById('root'));
+const element = (
+  <div>
+    <CustomButton text="I" />
+    <CustomButton text="know" />
+    <CustomButton text="React!" />
+  </div>
+);
+
+ReactDOM.render(element, document.getElementById('root'));
