@@ -9,9 +9,11 @@ console.log('the value of fullName:', fullName);
 
 student.livesInIrvine = true;
 student.previousOccupation = 'student';
+student.height = '5ft 10in';
 
 console.log('the value of student.livesInIrvine:', student.livesInIrvine);
 console.log('the value of student.previousOccupation:', student.previousOccupation);
+console.log('student information: ', student);
 
 var vehicle = {
   make: 'Tesla',
@@ -28,7 +30,8 @@ console.log('the value of vehicle:', vehicle);
 
 var pet = {
   name: 'Fighter',
-  type: 'German Shepherd'
+  type: 'German Shepherd',
+  weight: '65 lbs'
 };
 
 delete pet.name;
