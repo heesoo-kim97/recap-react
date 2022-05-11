@@ -67,3 +67,5 @@ var orderHistory = [
 
 console.log('Should log August:', orderHistory[0].orderPlaced.month);
 console.log('Should log 4:', orderHistory[3].item[1].returnBy.day);
+
+// working with data model.
