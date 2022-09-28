@@ -6,6 +6,7 @@ p {
 
 body {
   background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+  font-family: sans-serif;
 }
 
 .menu {
@@ -30,4 +31,21 @@ body {
 
 .item p {
   display: inline-block;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
